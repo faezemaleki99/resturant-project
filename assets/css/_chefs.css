@@ -1,0 +1,63 @@
+.chef {
+  background-color: #eee;
+  margin-top: 120px;
+  padding-top: 2px;
+}
+.chef-title {
+  font-size: 21px;
+  font-weight: 700;
+  color: #404040;
+}
+.chef-disc {
+  padding-top: 8px;
+  color: gray;
+  font-weight: 400;
+  font-size: 14px;
+}
+.chef-text {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 2;
+  color: #353535;
+}
+.chef-row {
+  margin: 20px 70px 50px 70px;
+}
+.chef-card {
+  transition: all 0.5s;
+}
+.chef-card:hover {
+  transform: scale(1.05);
+}
+.contact-chef {
+  background-color: rgba(255, 255, 255, 0.3);
+  right: -40px;
+  top: 10%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  display: none !important;
+}
+.contact-chef i {
+  margin: 10px 0;
+  color: #606060;
+  transition: all 0.3s;
+}
+.contact-chef i:hover {
+  color: #ce1212;
+}
+.chef-card:hover .contact-chef {
+  display: inline-flex !important;
+  margin-right: 50px;
+  /* animation: movex 2s infinite; */
+}
+/* @keyframes movex {
+    0% {
+        right: -40px;
+    }
+    100% {
+        right: 40px;
+    }
+} */
+.chef-card img {
+  border-bottom: thick double #ce1212;
+}

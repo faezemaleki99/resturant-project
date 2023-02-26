@@ -1,0 +1,38 @@
+.myform {
+  margin: 60px 45px;
+}
+.myform input {
+  padding: 12px 15px;
+}
+.myform input:focus,
+.myaria:focus {
+  box-shadow: none !important;
+  border: 1px solid #ce1212;
+}
+.myform input::placeholder {
+  font-size: 14px;
+}
+.myaria {
+  min-height: 150px !important;
+}
+.order-btn {
+  background-color: #ce1212;
+  color: white;
+  border: none !important;
+  outline: none !important;
+  padding: 15px 50px;
+  border-radius: 30px;
+  transition: all 0.4s;
+}
+.order-btn:hover {
+  background-color: #ec2727;
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .order-img {
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+  .myform input::placeholder {
+    font-size: 12px;
+  }
+}

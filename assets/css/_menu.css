@@ -1,0 +1,51 @@
+.menu-item h5 {
+  color: #373737;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.menu-item p {
+  font-size: 16px;
+  color: gray;
+}
+.menu-item span {
+  margin-top: 13px;
+  font-size: 27px;
+  font-weight: 700;
+  color: #ce1212;
+}
+.menu-title h6 {
+  color: gray;
+  font-size: 14px;
+}
+.menu-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ce1212;
+}
+.menu-item img {
+  width: 300px;
+  height: 300px;
+}
+.custom-tab-nav {
+  color: #4d4d4d !important;
+  font-size: 18px !important;
+  border: none !important;
+  outline: none !important;
+  border-bottom: 2px solid #c1c1c1 !important;
+  margin: 0 10px !important;
+  transition: all 0.3s;
+}
+.custom-tabs {
+  border: none !important;
+  outline: none !important;
+}
+.custom-tabs button:nth-child(1){
+  border-bottom: 2px solid #ce1212 !important;
+}
+.custom-tab-nav:active,
+.custom-tab-nav:hover,
+.custom-tab-nav:focus {
+  border-bottom: 2px solid #ce1212 !important;
+  color: #ce1212 !important;
+  outline: none !important;
+}
